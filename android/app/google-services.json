@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "25705781231",
+    "project_id": "archeun-minco",
+    "storage_bucket": "archeun-minco.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:25705781231:android:353e3540ff71e6b11bc81a",
+        "android_client_info": {
+          "package_name": "com.archeun.minco.minco"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCgd_Qx-Qo1YReRcDuySrYOPmrSobRy7Xc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
