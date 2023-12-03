@@ -13,6 +13,10 @@ class MincoApp extends StatelessWidget {
         useMaterial3: true,
       ),
       home: const Home(),
+      initialRoute: Home.routeName,
+      routes: {
+        Home.routeName: (context) => const Home(),
+      },
     );
   }
 }
