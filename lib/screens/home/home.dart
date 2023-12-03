@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-class MincoHomePage extends StatelessWidget {
-  const MincoHomePage({super.key, required this.title});
+class Home extends StatelessWidget {
+  const Home({super.key, required this.title});
 
   final String title;
 
