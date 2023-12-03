@@ -12,7 +12,7 @@ class MincoApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const Home(title: 'Minco Home Page'),
+      home: const Home(),
     );
   }
 }
