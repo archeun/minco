@@ -13,7 +13,6 @@ Future<void> main() async {
     try {
       FirebaseFirestore.instance.useFirestoreEmulator('10.0.2.2', 8080);
     } catch (e) {
-      // ignore: avoid_print
       print(e);
     }
   }
@@ -23,7 +22,6 @@ Future<void> main() async {
 class MincoApp extends StatelessWidget {
   const MincoApp({super.key});
 
-  // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -68,7 +66,7 @@ class MincoHomePage extends StatelessWidget {
             )
           ],
         ),
-      ), // This trailing comma makes auto-formatting nicer for build methods.
+      ),
     );
   }
 }
