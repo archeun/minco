@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:minco/screens/home.dart';
+import 'package:minco/screens/home/home.dart';
 
 class MincoApp extends StatelessWidget {
   const MincoApp({super.key});
