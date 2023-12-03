@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:minco/config/styles.dart';
 
 class Home extends StatelessWidget {
   const Home({super.key});
@@ -9,7 +10,8 @@ class Home extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Theme.of(context).colorScheme.inversePrimary,
+        backgroundColor: Styles.primary,
+        foregroundColor: Colors.white,
         title: const Text('Minco'),
       ),
       body: const Center(

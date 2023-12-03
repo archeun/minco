@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:minco/config/styles.dart';
 import 'package:minco/screens/home/home.dart';
 
 class MincoApp extends StatelessWidget {
@@ -8,11 +7,6 @@ class MincoApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Minco',
-      theme: ThemeData(
-        colorScheme: ColorScheme.fromSeed(seedColor: Styles.primary),
-        useMaterial3: true,
-      ),
       home: const Home(),
       initialRoute: Home.routeName,
       routes: {
