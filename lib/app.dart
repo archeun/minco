@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:minco/screens/home/home.dart';
+import 'package:minco/screens/authenticator/authenticator.dart';
 
 class MincoApp extends StatelessWidget {
   const MincoApp({super.key});
@@ -7,10 +7,10 @@ class MincoApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: const Home(),
-      initialRoute: Home.routeName,
+      home: const Authenticator(),
+      initialRoute: Authenticator.routeName,
       routes: {
-        Home.routeName: (context) => const Home(),
+        Authenticator.routeName: (context) => const Authenticator(),
       },
     );
   }

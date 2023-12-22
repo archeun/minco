@@ -12,7 +12,20 @@
           "package_name": "com.archeun.minco.minco"
         }
       },
-      "oauth_client": [],
+      "oauth_client": [
+        {
+          "client_id": "25705781231-2nc3n61d8i9ep9ce74dqd1bokppltopp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.archeun.minco.minco",
+            "certificate_hash": "4ffa48a040c091db02688886f54af7d6fc839171"
+          }
+        },
+        {
+          "client_id": "25705781231-k26tbn5rcb40ic8nenv6dvj05tna0e6a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
       "api_key": [
         {
           "current_key": "AIzaSyCgd_Qx-Qo1YReRcDuySrYOPmrSobRy7Xc"
@@ -20,7 +33,12 @@
       ],
       "services": {
         "appinvite_service": {
-          "other_platform_oauth_client": []
+          "other_platform_oauth_client": [
+            {
+              "client_id": "25705781231-k26tbn5rcb40ic8nenv6dvj05tna0e6a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
         }
       }
     }
