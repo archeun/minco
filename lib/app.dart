@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:minco/screens/home/home.dart';
+import 'package:minco/themes/minco.dart';
+import 'package:minco/utils/routes.dart';
 
 class MincoApp extends StatelessWidget {
   const MincoApp({super.key});
@@ -7,11 +8,10 @@ class MincoApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: const Home(),
-      initialRoute: Home.routeName,
-      routes: {
-        Home.routeName: (context) => const Home(),
-      },
+      debugShowCheckedModeBanner: false,
+      theme: Minco.defaultTheme,
+      initialRoute: MincoRoutes.initialRoute,
+      routes: MincoRoutes.getRoutes(),
     );
   }
 }
